@@ -1,4 +1,0 @@
-
-class Text extends StatelessWidget{
-
-}

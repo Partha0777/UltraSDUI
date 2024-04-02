@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:ultra_sdui/model/text_model.dart';
+import 'package:ultra_sdui/widgets/image_formats.dart';
 
 class CustomText extends StatelessWidget {
   TextModel textModel;
@@ -10,4 +11,6 @@ class CustomText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(textModel.text);
   }
+
 }
+

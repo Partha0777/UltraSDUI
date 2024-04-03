@@ -7,4 +7,8 @@ abstract class ImageFormats{
 
   Widget loadSVGImage(String src);
 
+  Widget loadLottieImageFromNetwork(String src);
+
+  Widget loadLottieImageFromAssets(String src);
+
 }

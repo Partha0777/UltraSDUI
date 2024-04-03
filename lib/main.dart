@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ultra_sdui/widgets/custom_image.dart';
 
 void main() {
   runApp(const MyApp());
@@ -108,6 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'You have pushed the button this many times:',
             ),
+            MultiFormatImage().loadLottieImageFromNetwork("https://raw.githubusercontent.com/xvrh/lottie-flutter/master/example/assets/Mobilo/A.json"),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,

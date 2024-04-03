@@ -1,18 +1,7 @@
 import 'package:flutter/cupertino.dart';
+import 'package:lottie/lottie.dart';
 
 import 'image_formats.dart';
-
-class CustomImage extends StatelessWidget {
-
-  const CustomImage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-
-    return MultiFormatImage().loadGifImage("");
-  }
-}
-
 
 class MultiFormatImage extends ImageFormats{
   @override
@@ -26,5 +15,16 @@ class MultiFormatImage extends ImageFormats{
     // TODO: implement loadSVGImage
     throw UnimplementedError();
   }
+
+  @override
+  Widget loadLottieImageFromAssets(String src) {
+    return Lottie.asset(src);
+  }
+
+  @override
+  Widget loadLottieImageFromNetwork(String src) {
+    return Lottie.network(src);
+  }
+
 
 }

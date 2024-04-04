@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:lottie/lottie.dart';
 
 import 'image_formats.dart';
@@ -12,8 +13,7 @@ class MultiFormatImage extends ImageFormats{
 
   @override
   Widget loadSVGImage(String src) {
-    // TODO: implement loadSVGImage
-    throw UnimplementedError();
+    return SvgPicture.network(src);
   }
 
   @override

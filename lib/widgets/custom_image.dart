@@ -7,7 +7,6 @@ import 'image_formats.dart';
 class MultiFormatImage extends ImageFormats{
   @override
   Widget loadGifImage(String src) {
-    // TODO: implement loadGifImage
     throw UnimplementedError();
   }
 

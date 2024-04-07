@@ -1,8 +1,6 @@
-
 import 'package:flutter/widgets.dart';
 
-abstract class ImageFormats{
-
+abstract class ImageFormats {
   Widget loadGifImage(String src);
 
   Widget loadSVGImage(String src);
@@ -10,5 +8,4 @@ abstract class ImageFormats{
   Widget loadLottieImageFromNetwork(String src);
 
   Widget loadLottieImageFromAssets(String src);
-
 }

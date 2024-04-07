@@ -11,6 +11,4 @@ class CustomText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(textModel.text);
   }
-
 }
-

@@ -5,20 +5,24 @@ import 'package:flutter/cupertino.dart';
 class VideoPlayer extends VideoFormat{
   @override
   Widget commonVideoPlayer() {
-    // TODO: implement commonVideoPlayer
     throw UnimplementedError();
   }
 
   @override
   Widget youTubeVideoPlayer() {
-    // TODO: implement youTubeVideoPlayer
     throw UnimplementedError();
   }
 
+  @override
+  Widget liveVideoPlayer() {
+    // TODO: implement liveVideoPlayer
+    throw UnimplementedError();
+  }
 
 }
 
 abstract class VideoFormat{
   Widget commonVideoPlayer();
   Widget youTubeVideoPlayer();
+  Widget liveVideoPlayer();
 }

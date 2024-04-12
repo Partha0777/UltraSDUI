@@ -5,6 +5,8 @@ abstract class CustomText{
   Widget text();
 
   Widget richText();
+
+  Widget webText();
 }
 
 class TextView extends CustomText{
@@ -15,6 +17,12 @@ class TextView extends CustomText{
 
   @override
   Widget text() {
+    throw UnimplementedError();
+  }
+
+  @override
+  Widget webText() {
+    // TODO: implement webText
     throw UnimplementedError();
   }
 

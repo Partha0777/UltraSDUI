@@ -22,7 +22,6 @@ class TextView extends CustomText{
 
   @override
   Widget webText() {
-    // TODO: implement webText
     throw UnimplementedError();
   }
 

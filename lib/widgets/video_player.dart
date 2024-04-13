@@ -15,7 +15,6 @@ class VideoPlayer extends VideoFormat{
 
   @override
   Widget liveVideoPlayer() {
-    // TODO: implement liveVideoPlayer
     throw UnimplementedError();
   }
 
